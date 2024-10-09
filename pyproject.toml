@@ -1,0 +1,7 @@
+[project]
+    dependencies    = ["strudel-cli>=0.1.1"]
+    description     = "Demo from the US-RSE workshop on STRUDEL Kit"
+    name            = "strudel-demo"
+    readme          = "README.md"
+    requires-python = ">=3.13"
+    version         = "0.1.0"
