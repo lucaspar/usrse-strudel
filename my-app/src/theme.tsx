@@ -69,7 +69,7 @@ export const theme = createTheme({
     },
     // Control the default border radius
     shape: {
-        borderRadius: 4,
+        borderRadius: 10,
     },
     // Control the font, size, and font weights
     typography: {
@@ -113,9 +113,9 @@ export const theme = createTheme({
                 {
                     props: { color: "neutral" },
                     style: {
-                        backgroundColor: "white",
-                        borderColor: "#bdbdbd",
-                        color: "#757575",
+                        backgroundColor: "#222",
+                        borderColor: "#444",
+                        color: "#fff",
                     },
                 },
             ],
