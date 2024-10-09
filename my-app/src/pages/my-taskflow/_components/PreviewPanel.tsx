@@ -173,32 +173,32 @@ export const PreviewPanel: React.FC<PreviewPanelProps> = ({
  * Placeholder columns for related data table
  */
 const relatedColumns = [
-    {
-        field: "id",
-        headerName: "ID",
-        width: 50,
-    },
-    {
-        field: "attr1",
-        headerName: "Attribute 1",
-        width: 100,
-    },
-    {
-        field: "attr2",
-        headerName: "Attribute 2",
-        width: 100,
-    },
-    {
-        field: "attr3",
-        headerName: "Attribute 3",
-        width: 100,
-    },
+    // {
+    //     field: "id",
+    //     headerName: "ID",
+    //     width: 50,
+    // },
+    // {
+    //     field: "attr1",
+    //     headerName: "Attribute 1",
+    //     width: 100,
+    // },
+    // {
+    //     field: "attr2",
+    //     headerName: "Attribute 2",
+    //     width: 100,
+    // },
+    // {
+    //     field: "attr3",
+    //     headerName: "Attribute 3",
+    //     width: 100,
+    // },
 ];
 
 /**
  * Placeholder rows for related data table
  */
-const emptyRows = Array(25).fill(0);
+const emptyRows = Array(0).fill(0);
 const relatedRows = emptyRows.map((d, i) => {
     return { id: i, attr1: "value", attr2: "value", attr3: "value" };
 });

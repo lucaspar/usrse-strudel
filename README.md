@@ -8,6 +8,8 @@ This repository contains a simple example of a STRUDEL Kit tutorial, created dur
 + [STRUDEL Kit Docs](https://strudel.science/strudel-kit/docs/)
 + [US-RSE Full Tutorial](https://strudel.science/strudel-kit/docs/guides/tutorials/usrse/)
 
+![STRUDEL Kit browser preview screenshot](preview.png)
+
 ## Running
 
 ```bash
