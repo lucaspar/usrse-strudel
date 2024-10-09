@@ -13,8 +13,9 @@ This repository contains a simple example of a STRUDEL Kit tutorial, created dur
 ## Running
 
 ```bash
-# install uv and npm
-uv sync
+# install uv/pipx and npm
+uv tool install strudel-cli
+# or pipx install strudel-cli
 cd my-app
 npm start
 ```
@@ -26,13 +27,15 @@ Open [localhost:5175](http://localhost:5175/) to view it in your browser.
 Or how to create your own:
 
 ```bash
-uv run strudel create-app my-app
+uv tool install strudel-cli
+# or pipx install strudel-cli
+strudel create-app my-app
 
 cd my-app
 npm install
 npm start
 
-uv run strudel add-taskflow my-taskflow -t explore-data
+strudel add-taskflow my-taskflow -t explore-data
 ```
 
 Edit `my-app/src/pages/my-taskflow/_config/taskflow.config.ts` to configure the task flow.
